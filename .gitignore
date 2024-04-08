@@ -1,5 +1,10 @@
-/Saved
-/*.sln
-/Intermediate
-/Plugins/*/Binaries
-/Plugins/*/Intermediate
+Saved/*
+*.sln
+Intermediate/*
+Plugins/*/Intermediate/*
+DerivedDataCache/
+.vs/
+.idea/
+.vscode/
+Build/
+!Build/**/*.ico
