@@ -1,0 +1,52 @@
+{
+	"FileVersion": 3,
+	"Version": 11,
+	"VersionName": "1.4.1",
+	"FriendlyName": "Logic Driver Lite",
+	"Description": "Create State Machines in Blueprints using graphs to define state and transition logic.",
+	"Category": "Editor",
+	"CreatedBy": "Recursoft",
+	"CreatedByURL": "https://recursoft.com",
+	"DocsURL": "https://logicdriver.com/docs",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/916643d0c665469594233cb0487e6d3d",
+	"SupportURL": "https://logicdriver.com",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SMSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux",
+				"PS4",
+				"XboxOne",
+				"Switch",
+				"Android",
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "SMSystemEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayTagsEditor",
+			"Enabled": true
+		}
+	]
+}

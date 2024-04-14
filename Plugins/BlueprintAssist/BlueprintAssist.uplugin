@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.3.6",
+	"FriendlyName": "BlueprintAssist",
+	"Description": "Adds support for mouseless blueprint creation and navigation",
+	"Category": "Editor",
+	"CreatedBy": "fpwong",
+	"CreatedByURL": "https://fpwong.github.io/",
+	"DocsURL": "https://github.com/fpwong/BlueprintAssistWiki/wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9e895371fa3a471c87337860d6f341ff",
+	"SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/120671",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BlueprintAssist",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+			],
+			"WhitelistTargets": [
+				"Editor"
+			]
+		}
+	]
+}
