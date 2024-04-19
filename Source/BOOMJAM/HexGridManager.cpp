@@ -38,7 +38,7 @@ void AHexGridManager::BeginPlay()
 
 			AHexTile* newTile = GetWorld()->SpawnActor<AHexTile>(tileToSpawn, FVector(FIntPoint(xPos, yPos)), FRotator::ZeroRotator);
 			newTile->TileIndex = FIntPoint(x, y);
-			newTile->SetActorLabel(FString::Printf(TEXT("Tile_%d-%d"), x, y));
+			//newTile->SetActorLabel(FString::Printf(TEXT("Tile_%d-%d"), x, y));
 			HexGrid2DArray[x][y] = newTile;
 		}
 	}
